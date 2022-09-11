@@ -1,0 +1,52 @@
+.App {
+  width: 315px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #eee;
+  min-height: 100vh;
+}
+img {
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav a {
+  color: #333;
+  text-decoration: none;
+  flex: 1 auto;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0px;
+}
+.nav a:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+.nav a:hover {
+  background: #ddd;
+}
+section {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.article {
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+.article a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s ease;
+}
+.article a:hover {
+  color: deepskyblue;
+}
